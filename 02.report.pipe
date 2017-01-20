@@ -1,0 +1,20 @@
+#ls -a| grep "list"
+list
+list 2
+
+#wc /etc/passwd
+ 40   69 2246 /etc/passwd
+
+#free
+              total        used        free      shared  buff/cache   available
+Mem:        3974808      807200     2211540      270256      956068     2637788
+Swap:       8000508           0     8000508
+
+#cat /proc/cpuinfo | grep "cpu cores"
+cpu cores	: 2
+cpu cores	: 2
+
+#find /home/ngaytho/Pictures -type f -name "*.jpg" | wc -l
+1
+
+

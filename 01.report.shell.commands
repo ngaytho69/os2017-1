@@ -1,0 +1,90 @@
+#echo hello world
+hello world
+
+#passwd
+Changing password for ngaytho.
+
+#date
+Showing the date at the current time.
+Thứ sáu, 20 Tháng một năm 2017 00:33:46 ICT
+
+#hostname
+ngaytho-HP-Pavilion-15-Notebook-PC
+
+#arch
+x86_64
+
+#uname -a
+Linux ngaytho-HP-Pavilion-15-Notebook-PC 4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016 x86_64 x86_64 x86_64 GNU/Linux
+
+#dmesg
+[    0.000000] Initializing cgroup subsys cpuset
+[    0.000000] Initializing cgroup subsys cpu
+[    0.000000] Initializing cgroup subsys cpuacct
+[    0.000000] Linux version 4.4.0-31-generic (buildd@lgw01-16) (gcc version 5.3.1 20160413 (Ubuntu 5.3.1-14ubuntu2.1) ) #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016 (Ubuntu 4.4.0-31.50-generic 4.4.13)
+[    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-4.4.0-31-generic.efi.signed root=UUID=d95d0771-262d-46ad-b8f9-aa7435e0bcc5 ro quiet splash vt.handoff=7
+[    0.000000] KERNEL supported cpus:
+[    0.000000]   Intel GenuineIntel
+[    0.000000]   AMD AuthenticAMD
+[    0.000000]   Centaur CentaurHauls
+....
+....
+[   36.760612] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+[   36.760615] Bluetooth: BNEP filters: protocol multicast
+[   36.760618] Bluetooth: BNEP socket layer initialized
+[   41.122756] IPv6: ADDRCONF(NETDEV_UP): eno1: link is not ready
+[   41.190267] r8169 0000:09:00.0 eno1: link down
+[   41.190330] IPv6: ADDRCONF(NETDEV_UP): eno1: link is not ready
+[   53.471524] Bluetooth: RFCOMM TTY layer initialized
+[   53.471533] Bluetooth: RFCOMM socket layer initialized
+[   53.471539] Bluetooth: RFCOMM ver 1.11
+[  471.374422] r8169 0000:09:00.0 eno1: link up
+[  471.374440] IPv6: ADDRCONF(NETDEV_CHANGE): eno1: link becomes ready
+
+#uptime
+ 00:39:17 up 17 min,  1 user,  load average: 0,75, 0,45, 0,42
+
+#who am i
+
+#whoami
+ngaytho
+
+#who
+ngaytho  tty7         2017-01-20 00:22 (:0)
+
+#id
+uid=1000(ngaytho) gid=1000(ngaytho) groups=1000(ngaytho),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),113(lpadmin),128(sambashare)
+
+#last
+ngaytho  tty7         :0               Fri Jan 20 00:22    gone - no logout
+reboot   system boot  4.4.0-31-generic Fri Jan 20 00:22   still running
+ngaytho  tty7         :0               Fri Jan 20 00:12 - down   (00:09)
+reboot   system boot  4.4.0-31-generic Fri Jan 20 00:12 - 00:21  (00:09)
+ngaytho  tty7         :0               Fri Jan 20 00:03 - down   (00:08)
+reboot   system boot  4.4.0-31-generic Fri Jan 20 00:02 - 00:11  (00:09)
+ngaytho  tty7         :0               Thu Jan 19 23:04 - down   (00:17)
+reboot   system boot  4.4.0-31-generic Thu Jan 19 23:04 - 23:22  (00:17)
+ngaytho  tty7         :0               Thu Jan 19 22:44 - down   (00:17)
+reboot   system boot  4.4.0-31-generic Thu Jan 19 22:44 - 23:02  (00:18)
+ngaytho  tty7         :0               Thu Jan 19 22:34 - crash  (00:09)
+reboot   system boot  4.4.0-31-generic Thu Jan 19 22:34 - 23:02  (00:28)
+ngaytho  tty7         :0               Thu Jan 19 22:21 - down   (00:11)
+reboot   system boot  4.4.0-31-generic Thu Jan 19 22:21 - 22:33  (00:12)
+ngaytho  tty7         :0               Fri Jan 20 04:57 - crash  (-6:-36)
+reboot   system boot  4.4.0-31-generic Fri Jan 20 04:56 - 22:33  (-6:-22)
+ngaytho  tty7         :0               Fri Jan 20 04:32 - down   (00:12)
+reboot   system boot  4.4.0-31-generic Fri Jan 20 04:32 - 04:44  (00:12)
+
+wtmp begins Fri Jan 20 04:32:02 2017
+
+#finger
+Login     Name       Tty      Idle  Login Time   Office     Office Phone
+ngaytho   ngaytho    tty7           Fri Jan 20 00:22 (:0)
+
+#w
+ 00:42:55 up 20 min,  1 user,  load average: 0,22, 0,37, 0,39
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+ngaytho  tty7     :0               00:22   20:39  58.28s  0.12s /sbin/upstart -
+
+
+

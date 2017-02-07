@@ -1,0 +1,11 @@
+#cat /proc/sched_debug | grep 'systemd '
+output:
+         systemd  2777        11.167991         8   120         0.485555        20.989121     15357.294054 0 0 /autogroup-78
+         systemd     1       301.454481      1900   120        50.981781      1851.129680   2129098.620240 0 0 /autogroup-2
+#cat /proc/2777/sched | grep 'nr_switches'
+output:
+nr_switches                                  :                    8
+#cat /proc/1/sched | grep 'nr_switches'
+output:
+nr_switches                                  :                 1904
+

@@ -1,3 +1,4 @@
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
@@ -31,7 +32,7 @@ item *consume() {
     return i;
 }
 
-void log_val() {
+void first_last() {
 	printf("First = %d  Last = %d\n",first,last);
 }
 int main() {
@@ -45,16 +46,19 @@ int main() {
 	i2.unit ='1';
 	printf("The item 1 is :\n type:%c\n amount:%d\n unit:%c\n",i1.type,i1.amount,i1.unit);
 	produce(&i1);
+	first_last();
 	
 
 	printf("The item 2 is :\n type:%c\n amount:%d\n unit:%c\n",i2.type,i2.amount,i2.unit);
 	produce(&i2);
+	first_last();
 	
-	item* consumed = consume();
-   	printf("\n-After consuming:\n type: %c\n amount: %d\n unit: %c\n", consumed->type, consumed->amount, consumed->unit);
-   	printf(" First: %d, last: %d\n", first, last);
+	item *consumed= consume();
+   	printf("\n-After consuming:\n type: %c\n amount: %d\n unit: %c\n",consumed->type, consumed->amount, consumed->unit);
+	
+	first_last();
+   	
    	return 0;
 	
 	
 }
-
